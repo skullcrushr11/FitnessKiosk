@@ -1,0 +1,68 @@
+{
+    "mediapipe": {
+        "pose_settings": {
+            "min_detection_confidence": 0.5,
+            "min_tracking_confidence": 0.5
+        },
+        "pose_landmarks": {
+            "nose": 0,
+            "left_eye_inner": 1,
+            "left_eye": 2,
+            "left_eye_outer": 3,
+            "right_eye_inner": 4,
+            "right_eye": 5,
+            "right_eye_outer": 6,
+            "left_ear": 7,
+            "right_ear": 8,
+            "mouth_left": 9,
+            "mouth_right": 10,
+            "left_shoulder": 11,
+            "right_shoulder": 12,
+            "left_elbow": 13,
+            "right_elbow": 14,
+            "left_wrist": 15,
+            "right_wrist": 16,
+            "left_pinky": 17,
+            "right_pinky": 18,
+            "left": 19,
+            "right": 20,
+            "left_thumb": 21,
+            "right_thumb": 22,
+            "left_hip": 23,
+            "right_hip": 24,
+            "left_knee": 25,
+            "right_knee": 26,
+            "left_ankle": 27,
+            "right_ankle": 28,
+            "left_heel": 29,
+            "right_heel": 30,
+            "left_foot": 31,
+            "right_foot": 32
+        }
+
+    },
+    "pushup": {
+        "error": {
+            "error_limit": 4,
+            "foot_wrist_limit": 5,
+            "leg_angle_threshold": 165,
+            "upper_angle_threshold": 170
+        }, "start": {
+            "angle": 135
+        }, "end": {
+            "angle": 60
+        }
+    },
+    "squat":{
+        "error":{
+            "error_limit":2,
+            "elbow_angle_threshold":150,
+            "shoulder_angle_threshold":60,
+            "upper_body_angle":160
+        }, "knee_start":{
+            "angle":165
+        },"knee_end":{
+            "angle":100
+        }
+    }
+}
